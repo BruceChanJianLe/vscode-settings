@@ -18,7 +18,7 @@ settings.json
 
 ## Customizing Functionality
 
-Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for some cool vim shortcut to be written in `setting.json`.  
+Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for some cool vim shortcut to be written in `settings.json`.  
 ```json
 {
     "python.defaultInterpreterPath": "/usr/bin/python3",
