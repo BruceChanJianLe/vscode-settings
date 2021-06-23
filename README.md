@@ -34,11 +34,11 @@ Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for s
     "vim.normalModeKeyBindingsNonRecursive": [
             {
                 "before": ["<leader>", "w"],
-                "after": [":wa"]
+                "commands": ["workbench.action.files.saveFiles"]
             },
             {
                 "before": ["<leader>", "x"],
-                "after": [":x"]
+                "commands": ["workbench.action.files.saveFiles","workbench.action.closeActiveEditor"]
             },
             {
                 "before": ["<leader>", "r"],
@@ -75,8 +75,15 @@ Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for s
             {
                 "before": ["<leader>", "l"],
                 "commands": ["workbench.action.navigateRight"]
-            }
-    ],
+            },
+            {
+                "before": ["<leader>", ","],
+                "commands": ["workbench.action.previousEditorInGroup"]
+            },
+            {
+                "before": ["<leader>", "."],
+                "commands": ["workbench.action.nextEditorInGroup"]
+            }    ],
     "C_Cpp.default.intelliSenseMode": "clang-x86",
     "clangd.path": "/home/chanjl/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
     "editor.renderWhitespace": "all",
