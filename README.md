@@ -83,7 +83,12 @@ Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for s
             {
                 "before": ["<leader>", "."],
                 "commands": ["workbench.action.nextEditorInGroup"]
-            }    ],
+            },
+            {
+                "before": ["<leader>", "s"],
+                "commands": ["workbench.action.editor.changeLanguageMode"]
+            }
+    ],
     "C_Cpp.default.intelliSenseMode": "clang-x86",
     "clangd.path": "/home/chanjl/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
     "editor.renderWhitespace": "all",
