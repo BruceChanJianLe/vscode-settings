@@ -87,6 +87,14 @@ Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for s
             {
                 "before": ["<leader>", "s"],
                 "commands": ["workbench.action.editor.changeLanguageMode"]
+            },
+            {
+                "before": ["<leader>", "<leader>", "h"],
+                "commands": ["workbench.action.compareEditor.focusSecondarySide"]
+            },
+            {
+                "before": ["<leader>", "<leader>", "l"],
+                "commands": ["workbench.action.compareEditor.focusPrimarySide"]
             }
     ],
     "C_Cpp.default.intelliSenseMode": "clang-x86",
