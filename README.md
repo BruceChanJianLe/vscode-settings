@@ -111,7 +111,7 @@ Please also visit [vim](https://github.com/BruceChanJianLe/vim) repository for s
 
 ## Searching for Unknown Commands
 
-To search for a command, for example, `"workbench.action.toggleEditorWidths"`, you are encouraged to use `Ctrl+Shift+p` and key in the command to search. Then click on the setting icons to review the actual command.
+To search for a command, for example, `"workbench.action.toggleEditorWidths"`, you are encouraged to use `Ctrl+Shift+p` and key in the command to search. Then click on the setting icons to review the actual command. You can also use the keyboard shortcut feature to search for the unknown commands. (file -> preference -> keyboard shortcuts).
 
 ## Locating Settings.json
 
