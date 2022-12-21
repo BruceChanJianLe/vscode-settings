@@ -8,9 +8,6 @@
     "vim.vimrc.path": "/home/chanjl/.vimrc",
     "scm.defaultViewMode": "tree",
     "vim.normalModeKeyBindingsNonRecursive": [
-
-
-
             {
                 "before": ["<leader>", "w"],
                 "commands": ["workbench.action.files.saveFiles"]
