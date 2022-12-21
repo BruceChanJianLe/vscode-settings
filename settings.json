@@ -8,6 +8,9 @@
     "vim.vimrc.path": "/home/chanjl/.vimrc",
     "scm.defaultViewMode": "tree",
     "vim.normalModeKeyBindingsNonRecursive": [
+
+
+
             {
                 "before": ["<leader>", "w"],
                 "commands": ["workbench.action.files.saveFiles"]
@@ -59,13 +62,32 @@
             {
                 "before": ["<leader>", "."],
                 "commands": ["workbench.action.nextEditorInGroup"]
+            },
+            {
+                "before": ["<leader>", "s"],
+                "commands": ["workbench.action.editor.changeLanguageMode"]
+            },
+            {
+                "before": ["<leader>", "<leader>", "h"],
+                "commands": ["workbench.action.compareEditor.focusSecondarySide"]
+            },
+            {
+                "before": ["<leader>", "<leader>", "l"],
+                "commands": ["workbench.action.compareEditor.focusPrimarySide"]
+            },
+            {
+                "before": ["alt+j"],
+                "commands": ["editor.action.moveLinesDownAction"]
+            },
+            {
+                "before": ["alt+k"],
+                "commands": ["editor.action.moveLinesUpAction"]
             }
         ],
     "C_Cpp.default.intelliSenseMode": "clang-x86",
     "clangd.path": "/home/chanjl/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
     "editor.renderWhitespace": "all",
     "C_Cpp.updateChannel": "Insiders",
-    "ros.distro": "melodic",
     "xml.symbols.maxItemsComputed": 10000,
     "[makefile]": {
         "editor.insertSpaces": false
@@ -93,7 +115,7 @@
     ],
     "terminal.integrated.scrollback": 100000,
     "terminal.integrated.automationShell.linux": "/home/chanjl/vscoderc",
-    "doxdocgen.file.versionTag": "@version 0.0",
+    "doxdocgen.file.versionTag": "\\version 0.0",
     "doxdocgen.generic.authorEmail": "chanjl@i2r.a-star.edu.sg",
     "doxdocgen.generic.authorName": "Chan Jian Le",
     "doxdocgen.file.copyrightTag": [
@@ -110,4 +132,20 @@
         "jupyter-notebook": "left"
     },
     "C_Cpp.workspaceSymbols": "All",
-} 
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "ros.distro": "melodic",
+    "doxdocgen.cpp.tparamTemplate": "\\tparam {param} ",
+    "doxdocgen.file.fileTemplate": "\\file {name}",
+    "doxdocgen.generic.briefTemplate": "\\brief {text}",
+    "doxdocgen.generic.dateTemplate": "\\date {date}",
+    "doxdocgen.generic.paramTemplate": "\\param {param} ",
+    "doxdocgen.generic.returnTemplate": "\\return {type} ",
+    "doxdocgen.generic.authorTag": "\\author {author} ({email})",
+    "doxdocgen.generic.useGitUserEmail": true,
+    "doxdocgen.generic.useGitUserName": true,
+    "C/C++ Include Guard.Macro Type": "Filepath",
+    "C/C++ Include Guard.Path Depth": 1,
+    "C/C++ Include Guard.Remove Extension": false,
+    "C/C++ Include Guard.Shorten Underscores": true,
+}
